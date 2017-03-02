@@ -9,6 +9,11 @@ namespace W4rSyst3m.Tools.Utilities
             return string.IsNullOrEmpty(value);
         }
 
+        public static bool IsNotNullNorEmpty(this string value)
+        {
+            return !value.IsNullOrEmpty();
+        }
+
         public static T ConvertTo<T>(this string value)
         {
             value.Must(v => !v.IsNullOrEmpty(), "I's can not be either null or empty.");

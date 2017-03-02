@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4rSyst3m.Tools.Utilities", "W4rSyst3m.Tools.Utilities\W4rSyst3m.Tools.Utilities.csproj", "{32B2812A-FACD-47F1-B021-6067BDE5A27B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0DDA7C1D-29B8-4F69-BB34-561262EED289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4rSyst3m.Tools.Utilities.Test", "W4rSyst3m.Tools.Utilities.Test\W4rSyst3m.Tools.Utilities.Test.csproj", "{DF64F441-6013-4B40-8B4B-D70A2E8CED16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4rSyst3m.Tools.TestUtilities", "W4rSyst3m.Tools.TestUtilities\W4rSyst3m.Tools.TestUtilities.csproj", "{738B834D-6495-43CD-8D03-F253301C4432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,19 @@ Global
 		{32B2812A-FACD-47F1-B021-6067BDE5A27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32B2812A-FACD-47F1-B021-6067BDE5A27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32B2812A-FACD-47F1-B021-6067BDE5A27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF64F441-6013-4B40-8B4B-D70A2E8CED16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF64F441-6013-4B40-8B4B-D70A2E8CED16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF64F441-6013-4B40-8B4B-D70A2E8CED16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF64F441-6013-4B40-8B4B-D70A2E8CED16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{738B834D-6495-43CD-8D03-F253301C4432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{738B834D-6495-43CD-8D03-F253301C4432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{738B834D-6495-43CD-8D03-F253301C4432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{738B834D-6495-43CD-8D03-F253301C4432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF64F441-6013-4B40-8B4B-D70A2E8CED16} = {0DDA7C1D-29B8-4F69-BB34-561262EED289}
 	EndGlobalSection
 EndGlobal
