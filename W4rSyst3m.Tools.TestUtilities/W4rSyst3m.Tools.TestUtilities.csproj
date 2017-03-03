@@ -49,11 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes\CategoryOfTestAttribute.cs" />
-    <Compile Include="Attributes\CategoryOfTestType.cs" />
-    <Compile Include="Attributes\TestOfAcceptanceAttribute.cs" />
-    <Compile Include="Attributes\TestOfIntegrationAttribute.cs" />
-    <Compile Include="Attributes\TestOfUnitAttribute.cs" />
+    <Compile Include="Attributes\TestCategoryAttribute.cs" />
+    <Compile Include="Attributes\TestCategoryType.cs" />
+    <Compile Include="Attributes\AcceptanceTestAttribute.cs" />
+    <Compile Include="Attributes\IntegrationTestAttribute.cs" />
+    <Compile Include="Attributes\UnitTestAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

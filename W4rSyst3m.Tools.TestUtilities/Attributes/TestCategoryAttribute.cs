@@ -10,16 +10,16 @@ using System.Linq;
 namespace W4rSyst3m.Tools.TestUtilities.Attributes
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
-    public abstract class CategoryOfTestAttribute : TestCategoryBaseAttribute
+    public abstract class TestCategoryAttribute : TestCategoryBaseAttribute
     {
-        public CategoryOfTestAttribute(
-            CategoryOfTestType type) 
+        public TestCategoryAttribute(
+            TestCategoryType type) 
             : base()
         {
             Type = type;
         }
 
-        public CategoryOfTestType Type { get; set; }
+        public TestCategoryType Type { get; set; }
 
         public override IList<string> TestCategories
         {

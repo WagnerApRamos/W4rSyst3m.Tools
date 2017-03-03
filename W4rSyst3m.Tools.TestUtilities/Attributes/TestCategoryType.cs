@@ -3,7 +3,7 @@
     /// <summary>
     /// Categoy of Test
     /// </summary>
-    public enum CategoryOfTestType
+    public enum TestCategoryType
     {
         /// <summary>
         /// Unit Tests
