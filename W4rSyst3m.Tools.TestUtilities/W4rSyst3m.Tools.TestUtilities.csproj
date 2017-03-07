@@ -54,10 +54,18 @@
     <Compile Include="Attributes\AcceptanceTestAttribute.cs" />
     <Compile Include="Attributes\IntegrationTestAttribute.cs" />
     <Compile Include="Attributes\UnitTestAttribute.cs" />
+    <Compile Include="AutoMockBuilder.cs" />
+    <Compile Include="Internal\MockBuilderUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\W4rSyst3m.Tools.Utilities\W4rSyst3m.Tools.Utilities.csproj">
+      <Project>{32b2812a-facd-47f1-b021-6067bde5a27b}</Project>
+      <Name>W4rSyst3m.Tools.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
