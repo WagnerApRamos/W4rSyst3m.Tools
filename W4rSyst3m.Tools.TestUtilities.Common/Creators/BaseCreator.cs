@@ -20,7 +20,7 @@ namespace W4rSyst3m.Tools.TestUtilities.Common.Creators
             return this;
         }
 
-        public T Build()
+        public T Create()
         {
             return _entity;
         }

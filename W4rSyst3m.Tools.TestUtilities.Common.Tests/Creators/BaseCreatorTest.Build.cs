@@ -9,13 +9,13 @@ namespace W4rSyst3m.Tools.TestUtilities.Common.Tests.Creators
     public partial class BaseCreatorTest
     {
         [TestClass]
-        public class BaseCreatorBuildTest :
+        public class BaseCreatorCreateTest :
             BaseCreatorTestFixture
         {
             [TestMethod, UnitTest]
-            public void Build_Returns_A_New_Instance_Of_TestClassCreator_When_T_Is_TestClassCreator()
+            public void Create_Returns_A_New_Instance_Of_TestClassCreator_When_T_Is_TestClassCreator()
             {
-                var entity = Build();
+                var entity = Create();
 
                 Assert.IsNotNull(_entity);
                 Assert.IsInstanceOfType(_entity, typeof(TestClassCreator));

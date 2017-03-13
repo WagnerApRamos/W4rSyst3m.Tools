@@ -64,6 +64,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\W4rSyst3m.Tools.TestUtilities.Common\W4rSyst3m.Tools.TestUtilities.Common.csproj">
+      <Project>{5620585a-812e-4f5b-9b6c-f6686f728a12}</Project>
+      <Name>W4rSyst3m.Tools.TestUtilities.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\W4rSyst3m.Tools.Utilities\W4rSyst3m.Tools.Utilities.csproj">
+      <Project>{32B2812A-FACD-47F1-B021-6067BDE5A27B}</Project>
+      <Name>W4rSyst3m.Tools.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
