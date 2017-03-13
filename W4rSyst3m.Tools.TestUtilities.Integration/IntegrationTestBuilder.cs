@@ -3,6 +3,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SimpleInjector;
 using SimpleInjector.Extensions.LifetimeScoping;
+using System;
 
 #endregion
 

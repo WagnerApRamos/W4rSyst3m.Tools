@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4rSyst3m.Tools.TestUtiliti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4rSyst3m.Tools.TestUtilities.Common", "W4rSyst3m.Tools.TestUtilities.Common\W4rSyst3m.Tools.TestUtilities.Common.csproj", "{5620585A-812E-4F5B-9B6C-F6686F728A12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4rSyst3m.Tools.TestUtilities.Common.Tests", "W4rSyst3m.Tools.TestUtilities.Common.Tests\W4rSyst3m.Tools.TestUtilities.Common.Tests.csproj", "{5F3016A1-B2D7-4AC6-93B1-20095B72FF45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,11 +43,16 @@ Global
 		{5620585A-812E-4F5B-9B6C-F6686F728A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5620585A-812E-4F5B-9B6C-F6686F728A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5620585A-812E-4F5B-9B6C-F6686F728A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3016A1-B2D7-4AC6-93B1-20095B72FF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3016A1-B2D7-4AC6-93B1-20095B72FF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3016A1-B2D7-4AC6-93B1-20095B72FF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3016A1-B2D7-4AC6-93B1-20095B72FF45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF64F441-6013-4B40-8B4B-D70A2E8CED16} = {0DDA7C1D-29B8-4F69-BB34-561262EED289}
+		{5F3016A1-B2D7-4AC6-93B1-20095B72FF45} = {0DDA7C1D-29B8-4F69-BB34-561262EED289}
 	EndGlobalSection
 EndGlobal

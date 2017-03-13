@@ -1,4 +1,4 @@
-﻿namespace W4rSyst3m.Tools.TestUtilities.Attributes
+﻿namespace W4rSyst3m.Tools.TestUtilities
 {
     public class AcceptanceTestAttribute : TestCategoryAttribute
     {

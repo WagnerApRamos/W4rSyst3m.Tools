@@ -7,7 +7,7 @@ using System.Linq;
 
 #endregion
 
-namespace W4rSyst3m.Tools.TestUtilities.Attributes
+namespace W4rSyst3m.Tools.TestUtilities
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
     public abstract class TestCategoryAttribute : TestCategoryBaseAttribute
