@@ -49,11 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes\TestCategoryAttribute.cs" />
-    <Compile Include="Attributes\TestCategoryType.cs" />
-    <Compile Include="Attributes\AcceptanceTestAttribute.cs" />
-    <Compile Include="Attributes\IntegrationTestAttribute.cs" />
-    <Compile Include="Attributes\UnitTestAttribute.cs" />
     <Compile Include="AutoMockBuilder.cs" />
     <Compile Include="Internal\MockBuilderUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

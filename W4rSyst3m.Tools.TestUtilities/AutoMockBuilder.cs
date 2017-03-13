@@ -57,6 +57,5 @@ namespace W4rSyst3m.Tools.TestUtilities
         {
             return GetMock<TMock>().Setup(setup);
         }
-
     }
 }
