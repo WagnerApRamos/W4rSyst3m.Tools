@@ -58,10 +58,20 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ConditionsTest.IsEnum.cs" />
+    <Compile Include="ConditionsTest.NotNull.cs" />
     <Compile Include="ConditionsTest.Must.cs" />
+    <Compile Include="ConditionsTest.NotNullOrEmpty.cs" />
+    <Compile Include="EnumerableExtensionsTest.IsNotNullNorEmpty.cs" />
+    <Compile Include="EnumerableExtensionsTest.IsNullOrEmpty.cs" />
+    <Compile Include="ObjectExtensionsTest.GetClone.cs" />
+    <Compile Include="ObjectExtensionsTest.IsNull.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringExtensionsTest.IsNotNullNorEmpty.cs" />
+    <Compile Include="StringExtensionsTest.IsNullOrEmpty.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObjectExtensionsTest.IsNotNull.cs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

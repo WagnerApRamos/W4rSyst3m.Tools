@@ -63,10 +63,10 @@ namespace W4rSyst3m.Tools.Utilities
         /// </summary>
         /// <param name="type">Type of object</param>
         public static void IsEnum(
-            this Type type)
+            this object argument)
         {
-            type.Must(t => t.IsEnum,
-                "{0} is not a valid System.Enum type".FormatAs(type.FullName));
+            argument.GetType().Must(t => t.IsEnum,
+                "{0} is not a valid System.Enum type".FormatAs(argument.GetType().FullName));
         }
     }
 }
